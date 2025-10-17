@@ -1,5 +1,6 @@
 {
   "name": "test-react",
+  "homepage": "https://your-username.github.io/your-repo-name",
   "private": true,
   "version": "0.0.0",
   "type": "module",
