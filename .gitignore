@@ -27,5 +27,5 @@ coverage
 *.sln
 *.sw?
 eslint.config.js
-
+.vscode
 *.tsbuildinfo
