@@ -1,22 +1,11 @@
-:root {
-    --color-primary: #ffffff;
-    --color-bg: #343d4b;
-    --color-primary-invert: #000000;
-    --color-bg-card: #272e37;
-    --color-bg-main: #222831;
-    --gr: linear-gradient(91deg,rgba(144, 217, 224, 0.9) 29%, rgba(84, 96, 238, 0.9) 60%);
-    --gr-inverted: linear-gradient(-90deg,rgba(144, 217, 224, 0.9) 29%, rgba(84, 96, 238, 0.9) 60%);
-    --font: "Montserrat", sans-serif;
+@import "tailwindcss";
+
+* {
+    --primary-font: Montserrat, sans-serif;
 }
 
 body {
-
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-
-
-    font-family: var(--font), sans-serif;
-
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
