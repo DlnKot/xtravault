@@ -1,4 +1,4 @@
-import {createWebHistory, createRouter} from 'vue-router'
+import { createRouter, createWebHistory} from 'vue-router'
 
 const Home = () => import('@/views/Home.vue')
 const About = () => import('@/views/About.vue')
@@ -17,7 +17,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/xtravault/'),
     routes,
 })
 
